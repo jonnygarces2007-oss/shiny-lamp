@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JG Servicios Digitales</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background: linear-gradient(135deg,#0f0c29,#302b63,#24243e);
+color:white;
+text-align:center;
+}
+
+header{
+padding:40px 20px;
+}
+
+/* LOGO */
+.logo{
+width:100px;
+height:100px;
+margin:0 auto 20px;
+border-radius:50%;
+background:linear-gradient(135deg,#00f5a0,#00d9f5);
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:38px;
+font-weight:700;
+color:#111;
+box-shadow:0 0 25px rgba(0,255,200,0.6);
+letter-spacing:3px;
+transition:0.4s;
+}
+
+.logo:hover{
+transform:scale(1.1) rotate(5deg);
+}
+
+header h1{
+font-size:30px;
+font-weight:700;
+}
+
+header p{
+opacity:0.8;
+margin-top:10px;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+padding:20px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:rgba(255,255,255,0.08);
+padding:25px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+transition:0.4s;
+box-shadow:0 0 20px rgba(0,0,0,0.3);
+}
+
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 0 30px rgba(0,255,200,0.4);
+}
+
+.card h2{
+margin-bottom:10px;
+}
+
+.card p{
+font-size:14px;
+opacity:0.8;
+margin-bottom:15px;
+}
+
+.btn{
+display:inline-block;
+padding:10px 20px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn:hover{
+background:#1ebe5d;
+}
+
+.section-trust{
+margin:50px 20px;
+padding:30px;
+background:rgba(255,255,255,0.05);
+border-radius:20px;
+}
+
+.section-trust h3{
+margin-bottom:10px;
+}
+
+footer{
+margin-top:40px;
+padding:20px;
+font-size:14px;
+opacity:0.6;
+}
+
+/* Botón flotante */
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 0 15px rgba(0,0,0,0.4);
+transition:0.3s;
+}
+
+.whatsapp-float:hover{
+transform:scale(1.1);
+background:#1ebe5d;
+}
+</style>
+</head>
+<body>
+
+<header>
+<div class="logo">JG</div>
+<h1>🚀 JG Servicios Digitales</h1>
+<p>Recargas • Streaming • Pagos • Tareas • Diseño Web</p>
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>📱 Recargas</h2>
+<p>Recargas rápidas para todas las operadoras.</p>
+<a class="btn" href="https://wa.me/593986817495?text=Quiero%20una%20recarga">Solicitar</a>
+</div>
+
+<div class="card">
+<h2>🎬 Streaming</h2>
+<p>Netflix, Disney+, Prime y más.</p>
+<a class="btn" href="https://wa.me/593986817495?text=Quiero%20una%20cuenta%20de%20streaming">Solicitar</a>
+</div>
+
+<div class="card">
+<h2>💡 Pago de Servicios</h2>
+<p>Internet, agua, luz y otros servicios.</p>
+<a class="btn" href="https://wa.me/593986817495?text=Quiero%20pagar%20un%20servicio">Pagar Ahora</a>
+</div>
+
+<div class="card">
+<h2>📚 Tareas y Trabajos</h2>
+<p>Escuela, colegio y universidad.</p>
+<a class="btn" href="https://wa.me/593986817495?text=Necesito%20ayuda%20con%20una%20tarea">Solicitar</a>
+</div>
+
+<div class="card">
+<h2>🌐 Diseño Web</h2>
+<p>Páginas modernas y profesionales.</p>
+<a class="btn" href="https://wa.me/593986817495?text=Quiero%20una%20pagina%20web">Cotizar</a>
+</div>
+
+<div class="card">
+<h2>🎉 Diseños para Fiestas</h2>
+<p>Invitaciones, dibujos para el cumpleañero realización de pancartas currículum hojas de vida etcétera.</p>
+<a class="btn" href="https://wa.me/593986817495?text=Quiero%20un%20diseno%20para%20fiesta">Cotizar</a>
+</div>
+
+</div>
+
+<div class="section-trust">
+<h3>🔒 Atención Rápida y Segura</h3>
+<p>Atendemos 24/7 • Pagos seguros • Respuesta inmediata por WhatsApp</p>
+</div>
+
+<footer>
+© 2026 JG Servicios Digitales | Todos los derechos reservados
+</footer>
+
+<a class="whatsapp-float" href="https://wa.me/593986817495?text=Hola%20quiero%20informacion" target="_blank">💬</a>
+
+</body>
+</html>
